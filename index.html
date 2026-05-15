@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maliha Jabbar | Portfolio</title>
+
+<style>
+:root{
+  --bg:#0b1220;
+  --card:#111a2e;
+  --accent:#38bdf8;
+  --text:#e2e8f0;
+  --muted:#94a3b8;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:linear-gradient(135deg,#0b1220,#0f172a);
+  color:var(--text);
+  line-height:1.6;
+}
+
+/* HEADER */
+header{
+  text-align:center;
+  padding:60px 20px;
+  background:radial-gradient(circle at top,#111827,#0b1220);
+  border-bottom:1px solid #1f2937;
+}
+
+header h1{
+  font-size:38px;
+  letter-spacing:3px;
+  color:var(--accent);
+}
+
+header p{
+  color:var(--muted);
+  margin-top:10px;
+}
+
+/* CONTAINER */
+.container{
+  max-width:1000px;
+  margin:auto;
+  padding:40px 20px;
+  display:grid;
+  gap:20px;
+}
+
+/* CARD */
+.card{
+  background:var(--card);
+  padding:25px;
+  border-radius:14px;
+  border:1px solid #1f2937;
+  transition:0.3s ease;
+  box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card:hover{
+  transform:translateY(-5px);
+  border-color:var(--accent);
+}
+
+h2{
+  color:var(--accent);
+  margin-bottom:12px;
+  font-size:20px;
+  border-left:4px solid var(--accent);
+  padding-left:10px;
+}
+
+/* LIST */
+ul{
+  padding-left:18px;
+  color:var(--text);
+}
+
+p{
+  color:var(--text);
+}
+
+/* LINKS */
+a{
+  color:var(--accent);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+/* TAG STYLE */
+.tag{
+  display:inline-block;
+  background:#0f172a;
+  padding:5px 10px;
+  margin:4px;
+  border-radius:8px;
+  font-size:12px;
+  color:var(--accent);
+  border:1px solid #1f2937;
+}
+
+/* FOOTER STYLE BOX */
+.github-box{
+  margin-top:10px;
+  padding:12px;
+  background:#0a1020;
+  border-left:4px solid var(--accent);
+  border-radius:8px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>MALIHA JABBAR</h1>
+  <p>Software Engineering Student | Web Developer | UI Designer</p>
+</header>
+
+<div class="container">
+
+<!-- PROFILE -->
+<div class="card">
+  <h2>Profile</h2>
+  <p>
+
+Software Engineering student at Riphah International University with strong interest in web development and creative design. Skilled in building responsive and user-friendly websites using HTML, CSS, JavaScript, Bootstrap, PHP, and MySQL.  </p>
+</div>
+
+<!-- CONTACT -->
+<div class="card">
+  <h2>Contact</h2>
+  <ul>
+    <li>📞 03139930315</li>
+    <li>📧 maliha.jabbar0786@gmail.com</li>
+    <li>📍 Toba Tek Singh, Pakistan</li>
+    <li>📍 Faisalabad, Pakistan</li>
+  </ul>
+</div>
+
+<!-- EDUCATION -->
+<div class="card">
+  <h2>Education</h2>
+  <p><b>BS Software Engineering</b></p>
+  <p>Riphah International University, Faisalabad</p>
+  <p>2022 – 2026</p>
+</div>
+
+<!-- SKILLS -->
+<div class="card">
+  <h2>Skills</h2>
+  <span class="tag">HTML</span>
+  <span class="tag">CSS</span>
+  <span class="tag">JavaScript</span>
+  <span class="tag">Bootstrap</span>
+  <span class="tag">PHP</span>
+  <span class="tag">MySQL</span>
+  <span class="tag">GitHub</span>
+    <span class="tag">Graphic Designing</span>
+</div>
+
+<!-- PROJECTS -->
+<div class="card">
+  <h2>Projects</h2>
+
+  <p><b>Cake Shop Website</b></p>
+  <p>Responsive bakery website using full stack web technologies.</p>
+  <div class="github-box">
+    🔗 <a href="https://malihajabbar0786-byte.github.io/bakeryshop_project/">Live Project</a>
+  </div>
+
+
+</div>
+
+<!-- EXPERIENCE -->
+<div class="card">
+  <h2>Experience</h2>
+
+  <p><b>Tech Hub Institute</b></p>
+  <ul>
+    <li>Worked on responsive website development using HTML, CSS, JavaScript, Bootstrap, PHP, and MySQL.</li>
+    <li>Assisted in creating and managing frontend designs and basic backend functionality.</li>
+    <li>Improved website layouts for better user experience and mobile responsiveness</li>
+    <li>Collaborated on small web projects and practiced version control using GitHub.</li>
+  </ul>
+
+  <br>
+
+  <p><b>Graphic Designing</b></p>
+  <ul>
+    <li>Social media posts and banners</li>
+    <li>UI layouts and creative design work</li>
+  </ul>
+</div>
+
+<!-- REFERENCES -->
+<div class="card">
+  <h2>References</h2>
+  <p>Tech Hub Institute</p>
+</div>
+
+</div>
+
+</body>
+</html>
